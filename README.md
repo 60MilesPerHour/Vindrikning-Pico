@@ -10,6 +10,25 @@ This guide will show you how to connect the IKEA Vindriktning air quality sensor
     - `5V` on Vindriktning -> `VBUS` on the Pico W
     - `REST` on Vindriktning -> `GP1` on the Pico W
 
+## Setting Up Thonny
+
+Thonny is a Python IDE that is ideal for beginners and works great with the Raspberry Pi Pico W.
+
+1. **Download and Install**:
+
+   - Download Thonny from [here](https://thonny.org).
+   - Install Thonny on your computer.
+
+2. **Connect the Pico and Open Thonny**:
+
+   - Plug your Raspberry Pi Pico W into your computer via USB.
+   - Open Thonny and ensure the bottom right corner of the window shows "MicroPython (Raspberry Pi Pico)".
+
+3. **Upload Your Code**:
+
+   - In Thonny, open the code file you want to upload to the Pico.
+   - Click the "Run" button. This will both upload the code to the Pico and execute it.
+
 ## Software Configuration
 
 1. **Update your Pico's code**:
